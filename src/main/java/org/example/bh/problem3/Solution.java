@@ -55,7 +55,6 @@ public class Solution {
         biggerKey = (map.get("A") >= map.get("N")) ? "A" : "N";
         result.append(biggerKey);
 
-        String personalityType = result.toString();
-        return personalityType;
+        return result.toString();
     }
 }
